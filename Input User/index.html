@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input User</title>
+</head>
+<body>
+    <h2>Input Element</h2>
+    <div>
+        Text:
+        <input type="text" />
+      </div>
+      <div>
+        Number:
+        <input type="number" />
+      </div>
+      <div>
+        Email:
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="example@gmail.com"/>
+      </div>
+      <div>
+        Password:
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="***" />
+      </div>
+      <div>
+        Search:
+        <input type="search">
+      </div>
+      <div>
+        Date :
+        <input type="date">
+      </div>
+      <div>
+        Time :
+        <input type="time">
+      </div>
+      <div>
+        Datetime Local
+        <input type="datetime-local">
+      </div>
+      <div>
+        Checkbox
+        <input type="checkbox">
+      </div>
+      <div>
+        Radio
+        <input type="radio">
+      </div>
+      <div>
+        Range
+        <input type="range">
+      </div>
+      <div>
+        Color
+        <input type="color">
+      </div>
+      <div>
+        File
+        <input type="file">
+      </div>
+      <div>
+        Submit
+        <input type="submit">
+      </div>
+      <div>
+        Hidden
+        <input type="hidden">
+      </div>
+      <br>
+
+      <h2>Checkin Input</h2>
+      <form method="post" action="https://example.com/">
+        <div>
+            <label for="fullname">Nama</label>
+            <input name="fullName" id="fullName" required placeholder="Masukan Nama">
+        </div>
+        <div>
+            <label for="checkIn">Tanggal Check-in</label>
+            <input name="checkIn" id="checkIn" required>
+        </div>
+        <div>
+            <label for="checkOut">Tanggal Check-out</label>
+            <input name="checkOut" id="checkOut" required>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
